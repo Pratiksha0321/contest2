@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="nav">
+        <h4><a href="#" id="nav-link" style="text-decoration:none; color:white;">Library System</a></h4>
+        <a href="#content1" id="nav-link">Books</a>
+        <a href="#content2" id="nav-link">Register</a>
+        <a href="#" id="nav-link">ContactUs</a>
+        <a href="#" id="nav-link">Logout</a>
+      </div>
+      <div class="main">
+      <div id="content1">
+        <h1>Books</h1>
+        <table class="table"> 
+        <tr>
+            <th> Book ID </th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="table-1"><a href="#">Book Title 1</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:2005</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:300</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890456</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Marijin Haverbeke</td>
+            <td>Programming</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="table-1"><a href="#">Book Title 2</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:2008</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:700</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890456</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Kyle Simpson</td>
+            <td>JavaScript</td>
+            <td>Not Available</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="table-1"><a href="#">Book Title 3</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:2010</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:774</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890456</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Jon Duckett</td>
+            <td>HTML & CSS</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="table-1"><a href="#">Book Title 4</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:2020</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:800</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567894546</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Lea Verou</td>
+            <td>Web Development</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="table-1"><a href="#">Book Title 5</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:2023</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:1200</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-477894546</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Stoyan Stefanov</td>
+            <td>Web Development/React</td>
+            <td>Not Available</td>
+        </tr>
+      </table>
+    </div>
+    <div id="content2">
+        <form action="" method="get">
+        <h1>Register</h1>
+        <h4>First name:</h4>
+        <input type="text" id="first-name" required>
+        <br>
+        <br>
+        <h4>Last name:</h4>
+        <input type="text" id="last-name" required>
+        <br>
+        <br>
+        <h4>Date of Birth:</h4>
+        <input type="date" id="date" required>
+        <br>
+        <br>
+        <h4>Age</h4>
+        <input type="number" min="5" max="100" id="age" required>
+        <br>
+        <br>
+        <h4>Email</h4>
+        <input type="email" id="mail" required>
+        <br>
+        <br>
+        <h4>Password</h4>
+        <input type="password" id="pass" required>
+        <br>
+        <br>
+        <h4>Confirm Password</h4>
+        <input type="password" id="confirm-pass" required>
+        <br>
+        <br>
+        <button type="submit" value="submit" id="btn">Register </button>
+    </form>
+    </div>
+    <br>
+    <br>
+</div>
+</body>
+</html>
+
